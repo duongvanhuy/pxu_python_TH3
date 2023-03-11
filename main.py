@@ -34,7 +34,7 @@ class main:
 
 
 obj = main()
-obj.getAllStudent()
+# obj.getAllStudent()
 # obj.getStudentById('B17DCCN001')
 
 # insert data
@@ -44,9 +44,9 @@ obj.getAllStudent()
 
 
 # update data
-# student = student.Student('B17DCCN001', 'Nguyễn Văn',
-#                           'C', '01/01/2000', 10, 10, 10)
-# obj.updateStudent(student)
+student = student.Student('B17DCCN001', 'Nguyễn Văn',
+                          'C', '01/01/2000', 10, 10, 10)
+obj.updateStudent(student)
 
 # delete data
 # obj.deleteStudent('B17DCCN001')
